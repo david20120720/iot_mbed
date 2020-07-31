@@ -1,0 +1,99 @@
+<?php
+require get_template_directory() . '/inc/menu_class.php';
+
+function webcreative_load_style() {
+	
+	wp_enqueue_style('style-webcreative', get_stylesheet_uri());
+	wp_enqueue_script( 'jquery213', get_template_directory_uri() . '/js/jquery-2.1.3.js');	
+	wp_enqueue_script( 'webcreative_menu', get_template_directory_uri() . '/js/menu.js');	
+	
+}
+add_action('wp_enqueue_scripts', 'webcreative_load_style');
+
+function webcreative_support_thumbnail() {
+	add_theme_support('post-thumbnails');
+	add_image_size('small-thumbnail',160,100);
+	add_image_size('big-thumbnail',500,300);
+}
+add_action('after_setup_theme','webcreative_support_thumbnail');
+
+function webcreative_excerpt_length($length) {
+
+	return 20;
+}
+add_filter('excerpt_length','webcreative_excerpt_length');
+
+function webcreative_add_menus() {
+	add_theme_support('menus');
+
+	register_nav_menus( array(
+	'first_nav' => __('First-menu','webcreative'),
+	'second_nav' => __('Second-menu','webcreative'),
+	'third_nav' => __('Third-menu','webcreative'),
+	'fourth_nav' => __('Forth-menu','webcreative'),
+	'fifth_nav' => __('Fifth-menu','webcreative'),
+	) );
+}
+add_action( 'after_setup_theme', 'webcreative_add_menus' );
+
+/*
+* Register  Webcreative widget areas.
+*/
+function webcreative_widgets_init() {
+
+		register_sidebar( array(
+			'name' => __('Bottom Sidebar A', 'webcreative'),
+			'id' => 'bottom-sidebar-a',
+			'description' => __('Bottom Sidebar A', 'webcreative')	
+	));
+
+		register_sidebar( array(
+			'name' => __('Bottom Sidebar B', 'webcreative'),
+			'id' => 'bottom-sidebar-b',
+			'description' => __('Bottom Sidebar B', 'webcreative')	
+	));
+		register_sidebar( array(
+			'name' => __('Bottom Sidebar C', 'webcreative'),
+			'id' => 'bottom-sidebar-c',
+			'description' => __('Bottom Sidebar C', 'webcreative')	
+	));
+		register_sidebar( array(
+			'name' => __('Bottom Sidebar D', 'webcreative'),
+			'id' => 'bottom-sidebar-d',
+			'description' => __('Bottom Sidebar D', 'webcreative')	
+	));
+		register_sidebar( array(
+			'name' => __('Bottom Sidebar E', 'webcreative'),
+			'id' => 'bottom-sidebar-e',
+			'description' => __('Bottom Sidebar E', 'webcreative')	
+	));
+		register_sidebar( array(
+				'name' => __('Bottom Sidebar F', 'webcreative'),
+			'id' => 'bottom-sidebar-f',
+			'description' => __('Bottom Sidebar F', 'webcreative')	
+	));
+
+}
+add_action('widgets_init','webcreative_widgets_init');
+
+
+function add_loginout_menu( $items, $args ){
+
+	if( is_admin() ||  $args->theme_location != 'second_nav' )	return $items; 
+
+	$redirect = ( is_home() ) ? false : get_permalink();
+	if( is_user_logged_in( ) )
+		$link = '<a href="' . wp_logout_url( $redirect ) . '" title="' .  __( 'Logout' ) .'">' . __( 'Logout', 'webcreative' ) . '</a>';
+	else  $link = '<a href="' . wp_login_url( $redirect  ) . '" title="' .  __( 'Login' ) .'">' . __( 'Login', 'webcreative' ) . '</a>';
+
+	return $items.= '<li id="log-in-out-link" class="menu-item menu-type-link">'. $link . '</li>';
+}
+add_filter( 'wp_nav_menu_items', 'add_loginout_menu', 50, 2 );
+
+function datepicker_method() {
+wp_enqueue_script( 'datepicker', get_stylesheet_directory_uri() . '/js/datepicker.js', array( 'jquery' ), '버전', 'true or false' );
+}
+add_action( 'wp_enqueue_scripts', 'datepicker_method' );
+
+
+

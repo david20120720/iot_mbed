@@ -1,0 +1,133 @@
+<?php
+/*
+Template Name: NB-IOT
+Template Post Type: page
+*/
+?>
+
+<!-- 조회구간 선택     -->
+
+<div class="container">
+	<div class="container-box">
+		<div class="main-content">
+			<form action="" method="post">
+			<input type="text" name="datepicker1" id="datepicker1"> ~
+			<input type="text" name="datepicker2" id="datepicker2">
+			<input type="submit" value="조회하기">
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<!-- 그래프로 보기 -->
+
+<?php
+
+$id=$_POST['datepicker1'];
+$id2=$_POST['datepicker2'];
+
+/**************************************************/
+/* mysql 연결테스트 ******************************/
+/**************************************************/
+
+$link = mysqli_connect("localhost", "dbadmin", "quix2012", "input");
+
+if (!$link) {
+    echo "Error: Unable to connect to MySQL." . PHP_EOL;
+    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+    exit;
+}
+
+echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
+echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
+mysqli_close($link);
+
+echo "<br>";
+
+/**************************************************/
+
+$conn=mysqli_connect("localhost","dbadmin","quix2012","input");
+$sql="select * from (SELECT dt_create, temp, humi, om
+FROM `tempnhumi`
+order by dt_create desc
+limit 100000
+)t_a
+order by t_a.dt_create";
+
+$result = mysqli_query($conn,$sql) ;
+$rows=array();
+$flag=true;
+$table=array();
+$table['cols']=array(
+//array('no'=>'id' , 'type'=>'number'),
+array('datetime'=>'dt_create','type'=>'string'),
+array('temperature'=>'temp','type'=>'number'),
+array('humidity'=>'humi','type'=>'number'),
+array('option'=>'om','type'=>'number')
+);
+
+$rows=array();
+$date0 = new DateTime($id);
+$date2 = new DateTime($id2);
+
+while($r=mysqli_fetch_assoc($result)){
+
+	$date1 = new DateTime($r['dt_create']);
+	if ($date1>$date0 && $date1<$date2) {
+	$temp=array();
+//	$temp[]=array('v'=>(int) $r['id']);
+	$temp[]=array('v'=>(string) $r['dt_create']);
+	$temp[]=array('v'=>(int) $r['temp']);
+	$temp[]=array('v'=>(int) $r['humi']);
+	$temp[]=array('v'=>(int) $r['om']);
+	$rows[]=array('c'=>$temp);
+
+
+//	echo("no: ".$r['id']);
+/*	echo($r['dt_create'].">");
+	echo("temperature > ".$r['temp']);
+	echo("humidity > ".$r['humi']);
+	echo("option > ".$r['om']);
+	echo("<br>");
+*/
+}
+}
+
+$table['rows']=$rows;
+$jsonTable=json_encode($table);
+
+
+?>
+
+
+<!-- 여기부터는 자바 스크립트 입니다. jsonTable의 data를 구글 차트에 전달해서 그래프를 그리도록 합니다. -->
+<div class="container">
+	<div class="container-box">
+		<div class="main-content">
+			<script src="//www.google.com/jsapi"></script>
+			<script src="//www.gstatic.com/charts/loader.js"></script>
+			<script>
+				google.charts.load('43', {'packages':['corechart']});
+				google.charts.setOnLoadCallback(drawChart);
+				function drawChart() {
+				var data = new google.visualization.DataTable(<?=$jsonTable?>);
+				var options = {
+				title: ' 현재시간까지의 측정결과 입니다.',
+				curveType: 'function',
+				legend: { position: 'bottom' }
+				};
+				var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+				chart.draw(data, options);
+				}
+			</script>
+
+			<div id="curve_chart" style="width:1500px; height: 600px"></div>
+		</div>
+	</div>
+</div>
+
+
+
+

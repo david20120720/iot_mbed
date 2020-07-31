@@ -1,0 +1,71 @@
+<?php
+
+$addr = gethostbyname('david2012.duckdns.org');
+$port = 5555;
+$data = "사과 오렌지 바나나 배";
+$buf1 = "";
+
+$sock = socket_create(AF_INET, SOCK_DGRAM, 0);
+if($sock < 0)	die(socket_strerror($sock));
+$ret = socket_sendto($sock, $data, strlen($data), 0, $addr, $port);
+echo "Send data : $data <br>";
+do
+{
+	$read = socket_recvfrom($sock, $buf1, 2048, 0, $addr, $port);
+} while($read < 0);
+
+echo "Receive data : $buf1 <br>";
+socket_close($sock);
+
+?>
+
+
+<?php
+/********************************************************************
+david mbed 에서 소켓통신(cpp ; mbed api )으로 보내온 데이터를 받는다(php 소켓 서버) 
+********************************************************************/
+?>
+
+
+<?PHP
+
+$addr = gethostbyname('127.0.0.1');
+$port = 5555;
+$buf = "";
+
+$sock = socket_create(AF_INET, SOCK_DGRAM, 0);
+if($sock < 0)	die(socket_strerror($sock));
+
+if(($ret = socket_bind($sock, $addr, $port)) < 0)	die(socket_strerror($ret));
+
+do
+{
+//	$read = socket_recvfrom($sock, $buf, 2048, 0, $addr, $port);
+	echo "Receive data : $buf <br>";
+
+	$temp = preg_split("/\s+/", $buf);
+	sort($temp);
+	
+	for($i = count($temp) - 1; $i >= 0; $i--)
+	{
+		$resp .= $temp[$i] ." ";
+	}
+	
+	$send = socket_sendto($sock, $resp, strlen($resp), 0, $addr, $port);
+	echo "Send data : $resp <br>";
+} while($read < 0);
+
+socket_close ($sock);
+
+	echo "test  : $buf <br>";
+
+?>
+
+<?php
+/********************************************************************
+david mbed 에서 소켓통신(cpp ; mbed api )으로 보내온 데이터를 받는다(php 소켓 서버) 
+********************************************************************/
+?>
+
+
+

@@ -1,0 +1,28 @@
+<?php
+function demo_process_user_form() {
+
+  check_admin_referer( 'user_form' );
+
+  // Server-side form validation goes here
+
+  $title = $_POST['title'];
+  $text = $_POST['text'];
+
+  $post = array(
+    'post_title' => $title,
+    'post_content' => $text,
+    'post_type' => 'post',
+    'post_status' => 'publish' // 'pending'    
+  );
+
+  $post_id = wp_insert_post($post);
+
+  if ( $post_id ) {
+    wp_redirect( home_url() );
+    exit;    
+  }    
+}
+
+add_action( 'admin_post_user_form', 'demo_process_user_form' );
+?>
+

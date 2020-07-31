@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+
+<?php   
+
+TCPSocket* socket = new TCPSocket();
+
+nsapi_error_t open_result = socket->open(network);
+// check open_result
+ 
+nsapi_error_t connect_result = socket->connect("david2012.duckdns.org", 80);
+// check connect_result
+ 
+// Pass in `socket`, instead of `network` as first argument
+HttpRequest* req = new HttpRequest(socket, HTTP_GET, "http://httpbin.org/status/418");
+
+
+
+
+?>
+
+</html>

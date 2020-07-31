@@ -1,0 +1,45 @@
+<!--홈페이지에 접속했을때 hpme.php 화일이 있으며, index.php가 아닌, home.php을 열게된다. 즉 우선순위는 home.php 가 높다 : david
+-->
+
+<?php get_header('home'); ?>
+
+<div class="container2">
+	<div class="container-box2">
+		<div class="main-content2">
+			<div>최근게시글_전체(1)</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-a'); ?>
+		</div>
+
+		<div class="main-content2">
+			<div>최근게시글_전체(2)</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-b'); ?>
+		</div>
+
+		<div class="main-content2">
+			<div>개인서버</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-c'); ?>
+		</div>
+
+		<div class="main-content2">
+			<div>DAVIDBOT_인공지능 로봇</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-d'); ?>
+		</div>
+		
+	</div>
+</div>
+
+<div class="mainbox-container">
+	<div class="mainbox">
+		<div class="subbox1">
+			<div>CALENDAR</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-e'); ?>
+		</div>
+		<div class="subbox3">
+			<div>CONTACTS</div><br>
+			<?php dynamic_sidebar('bottom-sidebar-f'); ?>
+		</div>
+	</div>
+</div>
+
+<?php get_footer(); ?>
+

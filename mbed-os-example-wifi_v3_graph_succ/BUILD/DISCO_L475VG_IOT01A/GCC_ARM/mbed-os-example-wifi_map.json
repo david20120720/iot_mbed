@@ -1,0 +1,1656 @@
+[
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/HTS221/HTS221Sensor.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 776
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/HTS221/HTS221_driver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 954
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LPS22HB/LPS22HBSensor.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 706
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LPS22HB/LPS22HB_driver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 596
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM303AGR/LSM303AGRAccSensor.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1718
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM303AGR/LSM303AGRMagSensor.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 727
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM303AGR/LSM303AGR_acc_driver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 974
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM303AGR/LSM303AGR_mag_driver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 316
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 3023
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSL_acc_gyro_driver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 768
+        }
+    }, 
+    {
+        "module": "X_NUCLEO_IKS01A2/XNucleoIKS01A2.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 324
+        }
+    }, 
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data": 9, 
+            ".bss": 20, 
+            ".text": 228
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-abort.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-assert.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 123
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-atoi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-callocr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 96
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-closer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 36
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-ctype_.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 257
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-dtoa.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4117
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-errno.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 12
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fclose.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 204
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fflush.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 432
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-findfp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 200
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fiprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 40
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fputwc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 272
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-freer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 680
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fstatr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fvwrite.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 736
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-fwalk.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 72
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-gdtoa-gethex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1760
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-gdtoa-hexnan.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 468
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-impure.o", 
+        "size": {
+            ".data": 1068, 
+            ".bss": 0, 
+            ".text": 4
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-init.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 72
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-isattyr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 36
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-iswspace.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-iswspace_l.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 20
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-lnumeric.o", 
+        "size": {
+            ".data": 2, 
+            ".bss": 0, 
+            ".text": 17
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-locale.o", 
+        "size": {
+            ".data": 364, 
+            ".bss": 0, 
+            ".text": 24
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-localeconv.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-lock.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 33, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-lseekr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-makebuf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 244
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-malloc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 32
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-mallocr.o", 
+        "size": {
+            ".data": 1040, 
+            ".bss": 52, 
+            ".text": 1396
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-mbrtowc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 69
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-mbtowc_r.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-memchr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 160
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-memcmp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 96
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-memcpy.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 308
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-memmove.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 216
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-memset.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 160
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-mprec.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2616
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-printf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 40
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-readr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-realloc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-reallocr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 992
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-reent.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-s_frexp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 112
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-s_nan.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 12
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-sbrkr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 36
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-sccl.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 136
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-sf_nan.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-signal.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 104
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-signalr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 48
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-sprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 68
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-sscanf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 88
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-stdio.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 144
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strcat.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strchr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 208
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strcmp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 732
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strcpy.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 188
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strlen.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 220
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strncmp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 124
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strncpy.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 104
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strnlen.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strstr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1048
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtod.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4095
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtok.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtok_r.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 108
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtol.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 296
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtoll.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 384
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtoul.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 320
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-strtoull.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 444
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-svfiprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 248
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-svfiscanf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 312
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-svfprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 7062
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-svfscanf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 5875
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-ungetc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 120
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-vfiprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 3759
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-vfprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 7386
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-vsnprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 144
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-vsprintf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-vsscanf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 96
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-wbuf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 176
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-wcrtomb.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 60
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-wctomb_r.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 28
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-writer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/c.a/lib_a-wsetup.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 208
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_aeabi_ldivmod.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 160
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_aeabi_uldivmod.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 48
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_addsubdf3.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 888
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_cmpdf2.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 272
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_fixdfsi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 80
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_fixunsdfsi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_muldivdf3.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1060
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_truncdfsf2.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 160
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_arm_unorddf2.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_dvmd_tls.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_fixdfdi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 48
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_fixunsdfdi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 60
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a/_udivmoddi4.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 708
+        }
+    }, 
+    {
+        "module": "[lib]/misc/crt0.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 116
+        }
+    }, 
+    {
+        "module": "[lib]/misc/crtbegin.o", 
+        "size": {
+            ".data": 12, 
+            ".bss": 28, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "[lib]/misc/crtend.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4
+        }
+    }, 
+    {
+        "module": "[lib]/misc/crti.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "[lib]/misc/crtn.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/nosys.a/getpid.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "[lib]/nosys.a/kill.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 1016, 
+            ".text": 2478
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/CAN.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 50
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/FlashIAP.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 130
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/I2C.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 44, 
+            ".text": 478
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/InterruptIn.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 357
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/SPI.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 144, 
+            ".text": 718
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers/Timer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 250
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/NetworkInterface.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 48
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/NetworkStack.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 74
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/Socket.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 477
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/SocketAddress.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 792
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/TCPServer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 58
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/TCPSocket.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 864
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/WiFiAccessPoint.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 88
+        }
+    }, 
+    {
+        "module": "mbed-os/features/netsocket/nsapi_dns.o", 
+        "size": {
+            ".data": 85, 
+            ".bss": 0, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "mbed-os/hal/mbed_gpio.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 124
+        }
+    }, 
+    {
+        "module": "mbed-os/hal/mbed_pinmap_common.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 218
+        }
+    }, 
+    {
+        "module": "mbed-os/hal/mbed_sleep_manager.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 2, 
+            ".text": 219
+        }
+    }, 
+    {
+        "module": "mbed-os/hal/mbed_ticker_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 798
+        }
+    }, 
+    {
+        "module": "mbed-os/hal/mbed_us_ticker_api.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 64, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_alloc_wrappers.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_assert.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 89
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_board.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 216
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_critical.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 5, 
+            ".text": 305
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_error.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_retarget.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 266, 
+            ".text": 854
+        }
+    }, 
+    {
+        "module": "mbed-os/platform/mbed_wait_api_rtos.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 100
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/EventFlags.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 212
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/Mutex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 188
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/Semaphore.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 149
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/mbed_boot.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4360, 
+            ".text": 467
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 667
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 0, 
+            ".text": 42
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/TOOLCHAIN_GCC/TARGET_RTOS_M4_M7/irq_cm4f.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 196
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rt_OsEventObserver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 72
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1180
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 150
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o", 
+        "size": {
+            ".data": 164, 
+            ".bss": 0, 
+            ".text": 855
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1620, 
+            ".text": 260
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 242
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 286
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1670
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1080
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 778
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 374
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2344
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 216
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1, 
+            ".text": 126
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos/Thread.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 721
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L475xG/TARGET_DISCO_L475VG_IOT01A/PeripheralPins.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 888
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L475xG/TARGET_DISCO_L475VG_IOT01A/system_clock.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 268
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L475xG/device/TOOLCHAIN_GCC_ARM/startup_stm32l475xx.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 446
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 52
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_cortex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 76
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_dma.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 72
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_i2c.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2814
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_i2c_ex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 120
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_pwr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 64
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_pwr_ex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 168
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_rcc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2032
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_rcc_ex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1556
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_rtc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 48
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_spi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2492
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_tim.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 360
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal_uart.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1306
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/system_stm32l4xx.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 0, 
+            ".text": 240
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/gpio_irq_device.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 192
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/serial_device.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 720, 
+            ".text": 92
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/TARGET_STM32L4/spi_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 86
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/can_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 8, 
+            ".text": 260
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/gpio_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 578
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/gpio_irq_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 536, 
+            ".text": 945
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/hal_tick_32b.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 324
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/i2c_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 20, 
+            ".text": 1823
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/mbed_overrides.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 22
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/pinmap.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 642
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/rtc_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 36, 
+            ".text": 63
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/serial_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 40, 
+            ".text": 1063
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/sleep.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 162
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/stm_spi_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1013
+        }
+    }, 
+    {
+        "module": "mbed-os/targets/TARGET_STM/us_ticker_32b.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 64, 
+            ".text": 98
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362/ATParser/ATParser.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1033
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362/ATParser/BufferedSpi/Buffer/MyBuffer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 146
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362/ATParser/BufferedSpi/BufferedPrint.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 220
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362/ATParser/BufferedSpi/BufferedSpi.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1396
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362/ISM43362.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 2641
+        }
+    }, 
+    {
+        "module": "wifi-ism43362/ISM43362Interface.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2585
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 11876, 
+            "total_flash": 119336
+        }
+    }
+]
